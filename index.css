@@ -1,0 +1,229 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body { 
+    margin: 0;
+    color: black;
+    background-color: rgb(153, 135, 170);
+}
+.title {
+    margin: 30px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 3, 78);
+
+
+}
+.Title1 {
+    margin: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(4, 3, 78);
+}
+    header {
+        background: rgb(172, 9, 164);
+        margin: 30px;
+    }
+    header nav {
+        padding: 10px 5% 10px 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+    }
+    .logo1 {
+        display: flex;
+        margin: 0;
+        height: 100px;
+        width: 120px;
+        justify-content: center;
+    }
+    header nav .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    header nav .right p {
+        margin: 0 15px 0 0;
+        cursor: pointer;
+    }
+    header nav .right p:hover{
+        color: brown;
+    } 
+
+.container {   
+      
+display: flex;
+    /* justify-content: center; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 16px; 
+    border-bottom: 1px solid black;
+    /* font-size: 30px; */
+    font-weight: 900; 
+    font-style: italic;
+    color: rgb(4, 3, 78);
+    margin: 30px;
+}
+
+.produit1 {
+    display: flex;
+    margin: 10px 30px 30px;
+    justify-content: space-between;
+}
+.banner-text1 {
+    position: absolute;
+    top: 190%;
+    color:  rgb(4, 3, 78);
+    padding: 20px; 
+    
+}
+.banner-text1 h1 {
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+}
+.banner-text1 button {
+    border: 2px solid  rgb(4, 3, 78);
+    background: none;
+    color: rgb(4, 3, 78);
+    padding: 10px 20px;
+    cursor: pointer;
+} 
+.banner-textA {
+    position: absolute;
+    top: 0px;
+    color: rgb(209, 173, 13);
+    padding: 500px ;
+}
+.banner-textA h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.banner-textA p {
+    color: white;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.weed{
+    display: flex;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(4, 3, 78);
+    justify-content: center;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: rgb(4, 3, 78);
+}
+
+.weedpics {
+    display: flex;
+    margin: 10px 30px 5px;
+    justify-content: space-between;
+    
+}
+.value {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px 30px 5px; */
+}
+.value .h3 {
+    color: rgb(4, 3, 78);
+    font-style: italic;
+}
+.part0{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+#im{
+    width: 100%;
+}
+.textEnd1 {
+    margin: 30px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.textEnd2 {
+    margin: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* background-color: rgb(4, 3, 78); */
+}
+
+footer {
+    margin: 0px;
+    padding: 20px 10%;
+    background-color:rgb(4, 3, 78);
+    color: white;
+    /* display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around; */
+
+
+
+}
+.End1 {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+
+}
+footer h3 {
+    font-weight: Solid bold;
+}
+
+footer h4 {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+.End {
+    text-align: center;
+}
+.SVG {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+@media (max-width: 480px) {
+    .part0 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .produit1 {
+    flex-direction: column;
+    width: 100%;
+    }
+    .produit1 img {
+        width: 100%;
+    }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  header nav {
+    display: flex;
+    flex-direction: column;
+  }
+  header nav .right {
+    flex-direction: column;
+  }
+}
+
